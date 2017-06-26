@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8649D9DA1F018A5100A7960C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649D9D91F018A5100A7960C /* LoginViewController.swift */; };
+		864CFB5B1F01AEC40055F479 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CFB5A1F01AEC40055F479 /* ChatViewController.swift */; };
 		86BD15D11F01893E00E4E90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD15D01F01893E00E4E90A /* AppDelegate.swift */; };
 		86BD15D31F01893E00E4E90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD15D21F01893E00E4E90A /* ViewController.swift */; };
 		86BD15D61F01893E00E4E90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BD15D41F01893E00E4E90A /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		5193A8071624436E3116CFB7 /* Pods_ParseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE8E776E2717BA8073924C5 /* Pods-ParseChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseChatUITests/Pods-ParseChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8649D9D91F018A5100A7960C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		864CFB5A1F01AEC40055F479 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		86BD15CD1F01893E00E4E90A /* ParseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BD15D01F01893E00E4E90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86BD15D21F01893E00E4E90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				86BD15D01F01893E00E4E90A /* AppDelegate.swift */,
 				86BD15D21F01893E00E4E90A /* ViewController.swift */,
 				8649D9D91F018A5100A7960C /* LoginViewController.swift */,
+				864CFB5A1F01AEC40055F479 /* ChatViewController.swift */,
 				86BD15D41F01893E00E4E90A /* Main.storyboard */,
 				86BD15D71F01893E00E4E90A /* Assets.xcassets */,
 				86BD15D91F01893E00E4E90A /* LaunchScreen.storyboard */,
@@ -451,6 +454,7 @@
 			files = (
 				8649D9DA1F018A5100A7960C /* LoginViewController.swift in Sources */,
 				86BD15D31F01893E00E4E90A /* ViewController.swift in Sources */,
+				864CFB5B1F01AEC40055F479 /* ChatViewController.swift in Sources */,
 				86BD15D11F01893E00E4E90A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

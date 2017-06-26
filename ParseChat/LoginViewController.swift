@@ -78,14 +78,11 @@ class LoginViewController: UIViewController {
                     // optional code for what happens after the alert controller has finished presenting
                 }
                 
-                
             } else {
                 print("User Registered successfully")
                 // manually segue to logged in view
             }
         }
-        
-        
         
     }
     
@@ -131,6 +128,8 @@ class LoginViewController: UIViewController {
             } else {
                 print("User logged in successfully")
                 // display view controller that needs to shown after successful login
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+
             }
         }
         
